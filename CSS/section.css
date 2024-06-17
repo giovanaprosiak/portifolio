@@ -1,0 +1,7 @@
+section img{
+    width: 20vw;
+    border-radius: 58% 42% 50% 50% / 43% 69% 31% 57% ;
+    position: absolute;
+    top: 10vw;
+    left: 20vw;
+}

@@ -1,0 +1,9 @@
+@import url(header.css);
+@import url(section.css);
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(white,black);
+}
