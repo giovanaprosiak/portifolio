@@ -5,3 +5,16 @@ section img{
     top: 10vw;
     left: 20vw;
 }
+section h1{
+    position: absolute;
+    top: 13vw;
+    right: 26.5vw;
+    font-size: 4vw;
+}
+section p{
+    position: absolute;
+    top: 20vw;
+    right: 32vw;
+    font-size: 2vw;
+    font-style: "Font Awesome 6 Free";
+}
