@@ -1,0 +1,18 @@
+@import url(header.css);
+@import url(projetos.js);
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+}
+
+#banner {
+    width: 100VW;
+    height: 20VW;
+
+    background-color: aqua;
+}    
+
+    
