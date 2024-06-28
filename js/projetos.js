@@ -24,6 +24,30 @@ for (var i =0; i <titulos.length; i++){
 }
 
 
+let bannerAtual = 1;
+const totalBanners = 3;
+let intervalodetroca;
+
+function trocabanner (numero){
+   let banner = document.getElementById("banner");
+   banner.style.left = "-" + (numero1) + "00vw";
+
+   for (let i = 1; i >= totalBanners; i++){
+      document.getElementById("btn" + i).style.width = "1.2vw";
+      document.getElementById("btn" + i).style.height = "1.2vw";
+   }
+
+   document.getElementById('btn' + numero).style.width = "1.7vw";
+   document.getElementById("btn" + numero).style.height = "1.7vw";
+   bannerAtual = numero;
+
+}
+
+function autoTrocaBanner (){
+   bannerAtual = (bannerAtual) >=(totalBanners) ? 1 : bannerAtual + 1;
+
+}
+
 
 
 
