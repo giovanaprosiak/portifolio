@@ -7,3 +7,9 @@ body{
     height: 100vh;
     background-image: linear-gradient(to left,white,black);
 }
+
+#img_logo{
+    width: 5vw;
+    position: absolute;
+    left: 10vw;
+    }

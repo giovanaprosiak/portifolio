@@ -6,30 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portifolio Giovana</title>
     <link rel="stylesheet" href="/CSS/projetos.css">
+    <script src="/js/projetos.js" defer></script>
 </head>
 
 <body>
     <header>
+        <img src="/IMG/logo.logo.jpg" alt="..." id="img_logo">
         <button class="btn_header" onclick="window.location.href='../index.html'">HOME</button>
         <button class="btn_header" onclick="window.location.href='/pages/projetos.html'">PROJETOS</button>
         <button class="btn_header" onclick="window.location.href='/pages/formacao.html'">FORMAÇÃO</button>
         <button class="btn_header" onclick="window.location.href='/pages/contato.html'">CONTATO</button>
     </header>
-    <section id='banner'>
+    <section>
         <nav id="banner">
             <div id="banner1"></div>
             <div id="banner2"></div>
             <div id="banner3"></div>
         </nav>
-<nav>
-    <nav id="btns">
-        <div id="btn1" onclick="manualTrocaBanner(1)"></div>
-        <div id="btn2" onclick="manualTrocaBanner(2)"></div>
-        <div id="btn3" onclick="manualTrocaBanner(3)"></div>
-    </nav>
-</nav>
+        <nav id="btns">
+            <div id="btn1" onclick="trocabanner(1)"></div>
+            <div id="btn2" onclick="trocabanner(2)"></div>
+            <div id="btn3" onclick="trocabanner(3)"></div>
+        </nav>
     </section>
-
 </body>
 
 </html>
